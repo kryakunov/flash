@@ -1,8 +1,14 @@
 # Usage
+```php
 require_once('flash_messages.php');
+```
 
-# Set flash messages
+## Set flash messages
+```php
 flash::set(string $name, string $message);
+```
 
-# Display flash messages
+## Display flash messages
+```php
 flash::display(string $name);
+```
